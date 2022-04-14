@@ -1,0 +1,99 @@
+<html lang="ru">
+<meta charset="windows-1251" >
+
+ <body>
+  
+<p><a href="1.htm" target="_parent">Главная страница</a></p>
+<p><a href="2.htm" target="_parent">История ЦДТ</a></p>
+<p><a href="6.htm" target="_top">Фото</a></p>
+<p><a href="7.htm" target="_top">2010-2015 года</a></p>
+<p><a href="8.htm" target="_top">2016-20120 года</a></p>
+ <p><a href="9.htm" target="_top">2021- настоящее время</a></p>
+<p><a href="10.htm" target="_top">Конкурсы</a></p>
+<p><a href="11.htm" target="_top">Контакты</a></p>
+<p><a href="12.htm" target="_top">Публикации СМИ</a></p>
+<p><a href="13.htm" target="_top">Обо мне</a></p>
+<p><a href="14.htm" target="_top">Карта сайта</a></p>
+
+   
+  
+ </body>
+</html>
+
+<head>
+   
+  <style>
+      body {
+         background: linear-gradient(to top, #BA9696 0%, #EADEDE 100%);
+         min-height: 100vh;
+      }
+
+      p {
+         color: rgba(255, 255, 255, .8);
+      }
+
+      .border-button {
+         text-decoration: none;
+         outline: none;
+         display: inline-block;
+         padding: 10px 80px;
+         margin: 10px 80px;
+         position: relative;
+         color: white;
+         border: 1px solid rgba(255, 255, 255, 0.4);
+         background: none;
+         font-weight: 300;
+         font-family: 'Montserrat', sans-serif;
+         text-transform: uppercase;
+         letter-spacing: 2px;
+      }
+
+      .border-button:before,
+      .border-button:after {
+         content: '';
+         position: absolute;
+         width: 0;
+         height: 0;
+         opacity: 0;
+         box-sizing: border-box;
+      }
+
+      .border-button:before {
+         bottom: 0;
+         left: 0;
+         border-left: 1px solid white;
+         border-top: 1px solid white;
+         transition: 0s ease opacity .8s, .2s ease width .4s, .2s ease height .6s;
+      }
+
+      .border-button:after {
+         top: 0;
+         right: 0;
+         border-right: 1px solid white;
+         border-bottom: 1px solid white;
+         transition: 0s ease opacity .4s, .2s ease width, .2s ease height .2s;
+      }
+
+      .border-button:hover:before,
+      .border-button:hover:after {
+         height: 100%;
+         width: 100%;
+         opacity: 1;
+      }
+
+      .border-button:hover:before {
+         transition: 0s ease opacity 0s, .2s ease height, .2s ease width .2s;
+      }
+
+      .border-button:hover:after {
+         transition: 0s ease opacity .4s, .2s ease height .4s, .2s ease width .6s;
+      }
+
+      .border-button:hover {
+         background: rgba(255, 255, 255, .2);
+      }
+   </style>
+
+</head>
+
+
